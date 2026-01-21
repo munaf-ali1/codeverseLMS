@@ -20,7 +20,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: "https://codeversefrontend.vercel.app/",
+    origin: "https://codeverselms-frontend.onrender.com/",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
