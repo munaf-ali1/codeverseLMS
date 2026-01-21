@@ -32,7 +32,7 @@ import DsaProblem from "./pages/DsaProblem.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 import PublicLayout from "./components/PublicLayout.jsx";
 
-export const serverUrl = "http://localhost:8000";
+export const serverUrl = "https://codeverselms-backend.onrender.com";
 
 function App() {
   return (
